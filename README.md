@@ -6,7 +6,7 @@ note: if anything crashes, try deleting any "inkay-pretendo.wms" and "inkay-pret
 HOW TO USE
 1. drop wiiuserverselector.wps into sd:/wiiu/environments/aroma/plugins/
 2. make a folder on the root of your sd card called "wiiu-servers"
-3. pretty much every online server uses a .wps and .wms file. for exanple, pretendo uses inkay-pretendo.wps and inkay-pretendo.wps. for whatever server you're trying to load, find the .wps and .wms file and make a folder in the "wiiu-servers" folder named your server name and put those files in the folder. your end result should look like SD:/wiiu-servers/[servername]/[filename].wps and SD:/wiiu-servers/[servername]/[filename].wms
+3. pretty much every online server uses a .wps and .wms file. for example, pretendo uses inkay-pretendo.wps and inkay-pretendo.wps. for whatever server you're trying to load, find the .wps and .wms file and make a folder in the "wiiu-servers" folder named your server name and put those files in the folder. your end result should look like SD:/wiiu-servers/[servername]/[filename].wps and SD:/wiiu-servers/[servername]/[filename].wms
 
 tip: reboot your wii u to see newly added servers 
 
