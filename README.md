@@ -1,4 +1,4 @@
-Wii U Server Selector
+Wii U Server Selector (Fork)
 
 Lets you swap between different Wii U servers (ex. Pretendo, Protarium) with a menu in the home menu. Make a folder in the root of your SD Card called "wiiu-plugins" and put your .wms and .wps files into a folder inside the "wiiu-plugins" folder, directly into that folder. Still a work in progress, built off of the "evWii" plugin code.
   
