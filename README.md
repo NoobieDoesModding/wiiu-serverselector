@@ -8,6 +8,8 @@ HOW TO USE
 2. make a folder on the root of your sd card called "wiiu-servers"
 3. pretty much every online server uses a .wps and .wms file. for exanple, pretendo uses inkay-pretendo.wps and inkay-pretendo.wps. for whatever server you're trying to load, find the .wps and .wms file and make a folder in the "wiiu-servers" folder named your server name and put those files in the folder. your end result should look like SD:/wiiu-servers/[servername]/[filename].wps and SD:/wiiu-servers/[servername]/[filename].wms
 
+tip: reboot your wii u to see newly added servers 
+
 here's an example of what your folder should look like
 <img width="2880" height="1800" alt="Screenshot 2026-09-08 233231" src="https://github.com/user-attachments/assets/ba1cb070-673d-4dce-b3bb-30a17d961fdf" />
 
