@@ -1,9 +1,16 @@
 Lets you swap between different Wii U servers (ex. Pretendo, Protarium) with a menu in the home menu. Make a folder in the root of your SD Card called "wiiu-plugins" and put your .wms and .wps files into a folder inside the "wiiu-plugins" folder, directly into that folder. Still a work in progress, built off of the "evWii" plugin code.
   
 note: if anything crashes, try deleting any "inkay-pretendo.wms" and "inkay-pretendo.wps" files, or whatever they may be called for you.
-  
+
+
+HOW TO USE
+1. drop wiiuserverselector.wps into sd:/wiiu/environments/aroma/plugins/
+2. make a folder on the root of your sd card called "wiiu-servers"
+3. pretty much every online server uses a .wps and .wms file. for exanple, pretendo uses inkay-pretendo.wps and inkay-pretendo.wps. for whatever server you're trying to load, find the .wps and .wms file and make a folder in the "wiiu-servers" folder named your server name and put those files in the folder. your end result should look like SD:/wiiu-servers/[servername]/[filename].wps and SD:/wiiu-servers/[servername]/[filename].wms
+
+
 HOW TO COMPILE
-get docker desktop
+download the docker desktop app
   
 run these two lines of code
 "docker build -t evwii_builder ."
