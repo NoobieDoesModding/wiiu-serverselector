@@ -19,7 +19,7 @@ WUMS_ROOT := $(DEVKITPRO)/wums
 # DATA is a list of directories containing data files
 # INCLUDES is a list of directories containing header files
 #-------------------------------------------------------------------------------
-TARGET		:=	evwii
+TARGET		:=	wiiuclientselector
 BUILD		:=	build
 SOURCES		:=	source
 DATA		:=	data
