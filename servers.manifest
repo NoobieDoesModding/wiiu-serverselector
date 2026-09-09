@@ -1,0 +1,11 @@
+# Wii U Server Selector downloader manifest v1
+# Format:
+# server|name|version|description
+# file|server-name|filename|https-url|sha256
+
+server|Protarium|3.1.0|Protarium Network Plugins
+file|Protarium|Inkay-Pretendo.wps|https://github.com/Protarium-Network/Inkay-GitHub-Release/releases/download/v3.1.0-protarium-r10/Inkay-Pretendo.wps|1ceb9646553e161fae099bd500703eab58ceaceed7fd16b19d32575f29a806c8
+file|Protarium|Inkay-Pretendo.wms|https://github.com/Protarium-Network/Inkay-GitHub-Release/releases/download/v3.1.0-protarium-r10/Inkay-Pretendo.wms|4d61f9bfbc9744992d0f5057027bc449eb3bbdb38dc40e7c79842eb2e0b3290a
+
+server|Pretendo|3.0.0|Pretendo Network ZIP
+file|Pretendo|Inkay-pretendo.zip|https://github.com/PretendoNetwork/Inkay/releases/download/v3.0.0/Inkay-pretendo.zip|a21757e5619b9df4d05c156d249a4932193490d62079d7a46f9d402d6a4406ee
