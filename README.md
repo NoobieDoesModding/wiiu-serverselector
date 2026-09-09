@@ -10,10 +10,8 @@ HOW TO USE
 
 
 HOW TO COMPILE
-download the docker desktop app
-  
-run these two lines of code
+1. download the docker desktop app
+2. run these two lines of code
 "docker build -t evwii_builder ."
 "docker run --rm -v ${PWD}:/project evwii_builder make"
-
-done
+3. done
