@@ -1,1 +1,11 @@
 Lets you swap between different Wii U servers (ex. Pretendo, Protarium) with a menu in the home menu. Make a folder in the root of your SD Card called "clients" and put your .wms and .wps files into a folder inside the "clients" folder, directly into that folder. Still a work in progress, built off of the "evWii" plugin code.
+
+HOW TO COMPILE
+get docker desktop
+
+run these two lines of code
+
+"docker build -t evwii_builder ."
+"docker run --rm -v ${PWD}:/project evwii_builder make"
+
+badabam
