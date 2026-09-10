@@ -410,6 +410,37 @@ bool LoadManifest() {
         gServers.push_back(std::move(pretendo));
     }
 
+
+        {
+        ServerInfo roseverse{
+            "Roseverse",
+            "Official Roseverse Inkay package",
+            "3.0.0",
+            {}
+        };
+
+        roseverse.files.push_back({
+            "Inkay-roseverse.wps",
+            "https://github.com/NoobieDoesModding/wiiu-serverselector/releases/download/Roseverse/Inkay-pretendo.wps",
+            "d688f00b5dfe257e38d63db0007363f19c7e42203899bda98a15302243d84f50",
+            0
+        });
+
+        roseverse.files.push_back({
+            "Inkay-roseverse.wms",
+            "https://github.com/NoobieDoesModding/wiiu-serverselector/releases/download/Roseverse/Inkay-pretendo.wms",
+            "27dd33ac9d4122d7a8aa4e55a08727ab143a91dad76457bfd1747626d7af67c5",
+            0
+        });
+
+        gServers.erase(
+            std::remove_if(gServers.begin(), gServers.end(),
+                           [](const ServerInfo &s) { return s.name == "Roseverse"; }),
+            gServers.end()
+        );
+        gServers.push_back(std::move(roseverse));
+    }
+
     OSReport("[ServerDownloader] Found %zu servers.\n", gServers.size());
     SetStatus("Server list ready");
     return true;
