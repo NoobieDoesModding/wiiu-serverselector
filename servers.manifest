@@ -4,8 +4,9 @@
 # file|server-name|filename|https-url|sha256
 
 server|Protarium|3.1.0|Protarium Network Plugins
-file|Protarium|Inkay-Pretendo.wps|https://github.com/Protarium-Network/Inkay-GitHub-Release/releases/download/v3.1.0-protarium-r10/Inkay-Pretendo.wps|1ceb9646553e161fae099bd500703eab58ceaceed7fd16b19d32575f29a806c8
-file|Protarium|Inkay-Pretendo.wms|https://github.com/Protarium-Network/Inkay-GitHub-Release/releases/download/v3.1.0-protarium-r10/Inkay-Pretendo.wms|4d61f9bfbc9744992d0f5057027bc449eb3bbdb38dc40e7c79842eb2e0b3290a
+file|Protarium|Inkay-pretendo.wps|https://github.com/NoobieDoesModding/wiiu-serverselector/releases/download/Release/Inkay-pretendo.wps|8c0c3d4324e35b685b44acdfd352fd516a5c7aa77bbefc27a4558aac54ad2ed7
+file|Protarium|Inkay-pretendo.wms|https://github.com/NoobieDoesModding/wiiu-serverselector/releases/download/Release/Inkay-pretendo.wms|0f01440676e4de04c53086b26616d8d33b665a054bad99c7dd286adfa764968f
 
-server|Pretendo|3.0.0|Pretendo Network ZIP
-file|Pretendo|Inkay-pretendo.zip|https://github.com/PretendoNetwork/Inkay/releases/download/v3.0.0/Inkay-pretendo.zip|a21757e5619b9df4d05c156d249a4932193490d62079d7a46f9d402d6a4406ee
+server|Pretendo|3.0.0|Pretendo Network Plugins
+file|Pretendo|Inkay-pretendo.wms|https://github.com/NoobieDoesModding/wiiu-serverselector/releases/download/Releas/Inkay-pretendo.wms|5b4d5eb31db1a1b35bf079ba9805acd8c324cc2674ef47ec9a99c88fe53b9369
+file|Pretendo|Inkay-pretendo.wps|https://github.com/NoobieDoesModding/wiiu-serverselector/releases/download/Releas/Inkay-pretendo.wps|e97b27c73b00bd15486f1d32f2c7597fd8109831fd7cf413f5290ac5c0a8df9a
