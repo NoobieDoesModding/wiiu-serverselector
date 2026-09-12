@@ -8,3 +8,4 @@ you may download Protarium Network and Pretendo Network directly from the plugin
 if you have issues contact me in the Protarium Network Discord Server!
 
 The repo is moved to Protarium. This repo will be used to store network files as well as servers.manifest
+New repo link: https://github.com/Protarium-Network/wiiu-serverselector
